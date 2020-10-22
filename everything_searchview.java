@@ -23,3 +23,7 @@ searchBar.setLayoutTransition(new LayoutTransition());
 
 //SearchView width match_parent
 searchView.setMaxWidth( Integer.MAX_VALUE );
+
+//Change color of underline in SearchView
+View v = searchView.findViewById(search_plate);
+v.setBackgroundColor(Color.parseColor("#000000"));
